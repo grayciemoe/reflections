@@ -5,3 +5,12 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 -the staging area has files ready for commit. commits happen from the staging are and not the working directory. commits create a repository. Once you commit you will be working from the repository on the commits
 
+How can you use the staging area to make sure you have one commit per logical change?
+-It is like a collection of conscious changes until I am sure it substantial enough to become a logical change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-when working on different functionalities at the same time but want to keep the working one.
+
+How do the diagrams help you visualize the branch structure?
+i see the unreachable branches. I kept asking the qn how comes the public repository isn't affected by all the students commiting. Well first i remember I have checked out a version and worked on it then commited. that commit doesnt appear in the master log . If i want it to i should checkout with a new branch git checkout -b new_branch_name
+
