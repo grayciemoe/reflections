@@ -1,0 +1,17 @@
+It highlighted only the lines that are different killing the noise from all the other files.
+
+I only foucsed on the lines that caused trouble.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?-You can address changes in the file incase you are looking for something specific
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does? When you are collaborating, it is dependent on an individuals thoughts on a commit and what or when it should be. Pros...not every small detail is highlighted.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is a code repository which means in all dev projects it is more likely than not that files are interrelated
+
+How can you use the commands git log and git diff to view the history of files? Git log gives you a history of commits while git diif using the id's from git log lets you manipulate the same
+
+How might using version control make you more confident to make changes that could break something? Knowing that I have all my versions available and I can checlout at each version to look at which version made the error and further use diff to know the exact line the error is reporduced from,
+
+Now that you have your workspace set up, what do you want to try using Git for?
+All projects especially GRC so we can track major changes
